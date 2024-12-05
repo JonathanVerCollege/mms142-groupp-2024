@@ -7,3 +7,26 @@ Progress continued in the 1980s with innovations like Dr. Hideo Kodama's use of 
 The 1990s and early 2000s saw significant advancements, including bioprinting breakthroughs like 3D-printed human tissue and open-source initiatives such as Adrian Bowyer's RepRap Project, which democratized 3D printing by enabling users to create their own printers. Commercial accessibility grew as companies like MakerBot and Objet introduced desktop printers capable of handling diverse materials.
 
 Since the 2010s, 3D printing has matured into a versatile technology used in industries ranging from construction and medicine to aerospace and electronics. Innovations in materials, including biocompatible and metal alloys, have expanded its applications, while advances in speed, cost efficiency, and scalability continue to drive its adoption. The future holds even greater promise, with emerging uses in personalized prosthetics, ecological housing, and sustainable manufacturing, making 3D printing a transformative force in modern industry.
+
+How it Works
+
+3D printing begins with making a 3D model design in a computer aided design (CAD) software. The software splices the virtual object into thin layers for the printing process. It is then transferred into a 3D printer with computer-aided manufacturing (CAM) softwares, guiding the printer in creating the object. Which is then printed using raw materials (like plastic, metal, and resin) layer by layer from the ground up. Works similarly to a typical printer, you create or find a design/2D object, then hit the ‘print’ button to produce an object. However, 3D printing often has structures that support the object that was used for stabilization. That support structure must be removed and then have your finished product. 
+  - section for the types of 3d printing [4.] [5.]
+    - 3d printing processes use the usual PLA (plastic), metal 3d printing, and resin 3d printing. Filaments
+      - Plastic (or Polymer?)
+        - The most commonly used material for 3D printing, one of the cheapest and easiest filaments to use. A flexible material due to its low melting point making it easier to print with. 
+      - Metal
+        - This material has excellent quality but it is complex to work with for 3D printing. It’s primarily applied in high-performance industries. It has a more complicated post-processing procedure and pricier equipment to handle. 
+      - Resin
+        - When using resin, it produces parts with quality detail and precision. There are various types of resins that can fit in most applications. However, it needs UV light to harden, and typically sensitive if there is too much exposure which can cause brittleness.  
+
+
+Overview of the Status Quo
+
+The 3D Printing is shown to have been thriving and constantly gaining demands due to its versatility as certain products or prototypes may benefit in aerospace, healthcare, automobility, industrial, and the like. The process of prototyping a model alongside with the usage of materials and quality of the products through additive manufacturing (AM), or 3D Printing, requires significant investment for materials and equipment. Most huge companies nowadays thrive well with utilizing 3D Printing such as Nike, Hasbro, and Ford, as they have been constantly exploring and finding new concepts and prototypes for their products. 
+
+With the continuous development of additive manufacturing, the manufacturing industry nowadays still prosper despite the demand for huge companies to benefit from 3D Printing for its quality and the complexity of the production. Traditional manufacturing has different sorts of human expertise such as forging, machining, and coating. Even though the production process can be quite lengthy, investing in traditional manufacturing can be low-cost, and caters to all types of companies and/or independent groups/individuals. Production can be made easy especially for mass production, it uses different types of machinery such as embroidery machines for clothes, cutting machines for books and papers, and mixers for food mixing. However, traditional manufacturing can be at a disadvantage especially when it comes to adaptability, such as labor intensive workplaces, using multiple machines for productions, and material waste
+
+While the initial costs for Additive manufacturing can be costly, prototypes and products can be modified via computer softwares such as Blender, FreeCAD, and Sketchup, wherein changes can be further made to the digital model of the product, and has a much shorter production time frame for completing a full 3D model (though, the production time depends on the quality and the size of the product). 
+
+Overall, traditional manufacturing can still produce high-quality products at a low cost, but if it leans towards more complex, detailed, and customizable production, it is much better to invest in additive manufacturing or 3D printing.
