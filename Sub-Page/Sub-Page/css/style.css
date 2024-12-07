@@ -128,6 +128,10 @@ header {
     color: var(--primary);
 }
 
+.no-scroll {
+    overflow: hidden;
+}
+
 
 /*------Page Layout------*/
 .content-area {
