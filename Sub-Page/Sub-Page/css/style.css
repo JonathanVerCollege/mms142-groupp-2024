@@ -106,6 +106,7 @@ header {
 .nav-mobile.active {
     opacity: 1;
     visibility: visible;
+    position: sticky;
 }
 
 .nav-mobile li {
