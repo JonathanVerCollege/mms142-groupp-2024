@@ -447,31 +447,82 @@ body {
     margin-bottom: 10px;
 }
 
-footer {
-    background: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    min-height: 10vh;
+.footer {
+  background: #1b1b1b;
+  height: auto;
+  padding-bottom: 30px;
+  position: relative;
+  width: 100%;
+  border-top: 18px;
+  margin-top: 5px;
+  color: #ffffff;
+} 
+
+.container {
+    max-height: 360px;
+    padding-top: 20px;
+    padding-top: 20px;
+    width: 90%;
+    margin: auto;
 }
 
-footer ul {
-    list-style: none;
-    padding: 0;
+.column {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
 }
 
-footer ul li {
-    margin: 5px 0;
+.info {
+    display: grid;
+    
+    width: 80%;  
 }
 
-.footer-columns {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
+.logo {
+    align-content: center;
 }
 
-.footer-columns ul {
-    width: 30%;
+.members {
+    align-content: center;
+}
+
+.names {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.member-list {
+    line-height: 2;
+    width: 90%;
+    min-width: 220px;
+    text-align: left;
+    align-content: end;
+    padding-left: 10px;
+} 
+
+.names {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+  .footer h4 {
+    font-size: 1em;
+    font-weight: 600;
+    align-content: center;
+    padding-bottom: 10px;
+  }
+  .footer h3 {
+    font-size: 1.2em;
+    font-weight: 600;
+    line-height: 2px;
+    padding: 40px 10px 0px;
+    text-transform: uppercase;
+    margin: 20px;
+    text-align: left;
+  }
+  
+  .footer p {
+    font-size: 1em;
+    font-weight: lighter;
 }
 
 .header-right .nav .dropdown {
