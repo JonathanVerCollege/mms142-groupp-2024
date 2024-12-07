@@ -22,7 +22,7 @@ body {
 /*------CSS from Orig FIle------*/
 /* *Header* */
 header {
-    position: sticky;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -106,7 +106,6 @@ header {
 .nav-mobile.active {
     opacity: 1;
     visibility: visible;
-    position: sticky;
 }
 
 .nav-mobile li {
