@@ -103,11 +103,11 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-//dropdown close//
+//Navigation Dropdown closes
 document.addEventListener('DOMContentLoaded', function () {
     const dropbtn = document.querySelector('.dropbtn');
     const dropdownContent = document.querySelector('.dropdown-content');
-    const dropdownItems = document.querySelectorAll('.dropdown-content a'); // Highlighted addition
+    const dropdownItems = document.querySelectorAll('.dropdown-content a');
 
     dropbtn.addEventListener('click', function (event) {
         event.stopPropagation();
@@ -126,5 +126,4 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 });
-
 
