@@ -26,7 +26,29 @@ document.querySelectorAll('.nav-mobile li a').forEach(item => {
     });
 });
 
+//menu prohibits scrolling//
+function togglemenu() {
+    const menu = document.querySelector('.menu');
+    const navMobile = document.querySelector('.nav-mobile');
+    const body = document.body;
 
+    menu.classList.toggle('active');
+    navMobile.classList.toggle('active');
+    body.classList.toggle('no-scroll');
+}
+
+//when menu closes//
+document.querySelectorAll('.nav-mobile li a').forEach(item => {
+    item.addEventListener('click', () => {
+        const menu = document.querySelector('.menu');
+        const navMobile = document.querySelector('.nav-mobile');
+        const body = document.body;
+
+        menu.classList.remove('active');
+        navMobile.classList.remove('active');
+        body.classList.remove('no-scroll');
+    });
+});
 
 // Change Background Videos
 function changeVideo(name){
