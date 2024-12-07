@@ -6,6 +6,15 @@ function togglemenu(){
     navMobile.classList.toggle('active');
 }
 
+document.querySelectorAll('.nav a').forEach(item => {
+    item.addEventListener('click', function () {
+        const menu = document.querySelector('.menu');
+        const navMobile = document.querySelector('.nav-mobile');
+        menu.classList.remove('active');
+        navMobile.classList.remove('active');
+    });
+});
+
 // Change Background Videos
 function changeVideo(name){
     const bgVideoList = document.querySelectorAll('.bg-video');
