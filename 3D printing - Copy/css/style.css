@@ -124,6 +124,10 @@ header {
     color: var(--primary);
 }
 
+.no-scroll {
+    overflow: hidden;
+}
+
 .banner {
     position: relative;
     width: 100%;
