@@ -342,3 +342,46 @@ h3 {
     font-size: 1em;
     font-weight: lighter;
 }
+
+.header-right .nav .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.header-right .nav .dropbtn {
+    background-color: inherit;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.header-right .nav .dropdown-content a {
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.header-right .nav .dropdown-content a:hover {
+    background-color: #000;
+    color: #ffffff;
+}
+
+.header-right .nav .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 25px;
+    background-color: #ffffff;
+    opacity: 45%;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 900;
+}
+
+.header-right .nav .dropdown:hover .dropbtn {
+    color: var(--primary);
+}
