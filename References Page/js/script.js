@@ -17,28 +17,41 @@ function togglemenu(){
 // Smooth scrolling for navigation
 
 // Navigation Dropdown
-document.addEventListener('DOMContentLoaded', function () {
-    const dropbtn = document.querySelector('.dropbtn');
-    const dropdownContent = document.querySelector('.dropdown-content');
-    const dropdownItems = document.querySelectorAll('.dropdown-content a');
+// Select the dropdown button and dropdown content
+const dropdownBtn = document.querySelector('.dropbtn');
+const dropdownContent = document.querySelector('.dropdown-content');
+const dropdownLinks = document.querySelectorAll('.dropdown-content a');
 
-    dropbtn.addEventListener('click', function (event) {
-        event.stopPropagation();
-        dropdownContent.style.display = (dropdownContent.style.display === 'block') ? 'none' : 'block';
-    });
+// Function to toggle the display of the dropdown content
+function toggleDropdown() {
+    if (dropdownContent.style.display === 'block') {
+        dropdownContent.style.display = 'none';
+    } else {
+        dropdownContent.style.display = 'block';
+    }
+}
 
-    dropdownItems.forEach(function (item) { 
-        item.addEventListener('click', function () { 
-            dropdownContent.style.display = 'none'; 
-        }); 
-    }); 
+// Function to close the dropdown content
+function closeDropdown() {
+    dropdownContent.style.display = 'none';
+}
 
-    document.addEventListener('click', function(event) {
-        if (!dropbtn.contains(event.target) && !dropdownContent.contains(event.target)) {
+// Add event listener to the dropdown button
+dropdownBtn.addEventListener('click', toggleDropdown);
+
+// Add event listener to each dropdown link
+dropdownLinks.forEach(link => {
+    link.addEventListener('click', closeDropdown);
+});
+
+// Optional: Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+        if (dropdownContent.style.display === 'block') {
             dropdownContent.style.display = 'none';
         }
-    });
-});
+    }
+};
 
 //share button//
 //also this...
