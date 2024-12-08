@@ -17,7 +17,28 @@ function togglemenu(){
 // Smooth scrolling for navigation
 
 // Navigation Dropdown
+document.addEventListener('DOMContentLoaded', function () {
+    const dropbtn = document.querySelector('.dropbtn');
+    const dropdownContent = document.querySelector('.dropdown-content');
+    const dropdownItems = document.querySelectorAll('.dropdown-content a');
 
+    dropbtn.addEventListener('click', function (event) {
+        event.stopPropagation();
+        dropdownContent.style.display = (dropdownContent.style.display === 'block') ? 'none' : 'block';
+    });
+
+    dropdownItems.forEach(function (item) { 
+        item.addEventListener('click', function () { 
+            dropdownContent.style.display = 'none'; 
+        }); 
+    }); 
+
+    document.addEventListener('click', function(event) {
+        if (!dropbtn.contains(event.target) && !dropdownContent.contains(event.target)) {
+            dropdownContent.style.display = 'none';
+        }
+    });
+});
 
 //share button//
 //also this...
