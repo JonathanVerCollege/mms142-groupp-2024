@@ -186,6 +186,7 @@ p {
     line-height: 1.5;
     color: white;
     padding-bottom: 25px;
+    overflow: hidden;
 }
 
 /*---3D Printing content area layout---*/
