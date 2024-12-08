@@ -604,3 +604,35 @@ body {
     display: block;
 }
 
+/* Ensure .image-column contents do not overflow */
+.image-column {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.image-column img,
+.image-column iframe {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Responsive iframe for YouTube embeds */
+.image-column iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9; /* Ensures the video maintains a 16:9 aspect ratio */
+}
+
+/* Ensure the footer stays at the bottom */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.additional-content {
+    flex: 1;
+}
+
