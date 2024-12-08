@@ -29,18 +29,18 @@ header {
     align-items: center;
     padding: 20px 100px;
     z-index: 1000;
+    background-color: rgba(27, 27, 27, 0.055);
 }
 
 .logo {
-    font-size: 30px;
-    color: #ffffff;
-    letter-spacing: 2px;
-    font-weight: 800;
-    text-decoration: none;
-    text-transform: uppercase;
+    width: 90px;
+    margin-top: 22px;
+    position: absolute;
+    
 }
 
 .header-right {
+    margin-top: 27px;
     display: flex;
     align-items: center;
 }
@@ -452,82 +452,84 @@ body {
 }
 
 .footer {
-  background: #1b1b1b;
-  height: auto;
-  padding-bottom: 30px;
-  position: relative;
-  width: 100%;
-  border-top: 18px;
-  margin-top: 5px;
-  color: #ffffff;
-} 
-
-.container {
-    max-height: 360px;
-    padding-top: 20px;
-    padding-top: 20px;
-    width: 90%;
-    margin: auto;
-}
-
-.column {
-    display: grid;
-    grid-template-columns: 1fr 1.5fr;
-}
-
-.info {
-    display: grid;
-    
-    width: 80%;  
-}
-
-.logo {
-    align-content: center;
-}
-
-.members {
-    align-content: center;
-}
-
-.names {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-.member-list {
-    line-height: 2;
-    width: 90%;
-    min-width: 220px;
-    text-align: left;
-    align-content: end;
-    padding-left: 10px;
-} 
-
-.names {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-  .footer h4 {
-    font-size: 1em;
-    font-weight: 600;
-    align-content: center;
-    padding-bottom: 10px;
-  }
-  .footer h3 {
-    font-size: 1.2em;
-    font-weight: 600;
-    line-height: 2px;
-    padding: 40px 10px 0px;
-    text-transform: uppercase;
-    margin: 20px;
-    text-align: left;
+    background: #1b1b1b;
+    padding-bottom: 30px;
+    position: relative;
+    width: 100%;
+    border-top: 18px;
+    margin-top: 5px;
+    color: #ffffff;
+    padding: 0 15px; 
+  } 
+  
+  .container {
+      max-height: 360px;
+      padding-top: 20px;
+      width: 90%;
+      margin: auto;
   }
   
+  .column {
+      display: grid;
+      grid-template-columns: 1fr 1.5fr;
+  }
+  
+  .info {
+      display: grid;
+      width: 80%;
+      height: 80%;  
+  }
+  
+  .footer-logo {
+      padding-top: 12px;
+      padding-bottom: 10px;
+      width: 7em;
+  }
+  
+  .members {
+      align-content: center;
+      height: 80%;
+  }
+  
+  .names {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .member-list {
+      line-height: 2;
+      width: 90%;
+      min-width: 220px;
+      text-align: left;
+      align-content: end;
+      padding-left: 10px;
+  } 
+  
+  .names {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .footer h4 {
+      font-size: 1em;
+      font-weight: 600;
+      align-content: center;
+      padding-bottom: 10px;
+  }
+  .footer h3 {
+      font-size: 1.2em;
+      font-weight: 600;
+      line-height: 2px;
+      padding: 20px 10px 0px;
+      text-transform: uppercase;
+      margin: 20px;
+      text-align: left;
+  }
+    
   .footer p {
-    font-size: 1em;
-    font-weight: lighter;
-}
+      font-size: 1em;
+      font-weight: lighter;
+  } 
 
 .header-right .nav .dropdown {
     position: relative;
