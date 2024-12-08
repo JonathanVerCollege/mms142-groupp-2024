@@ -586,3 +586,21 @@ body {
 .additional-content .content-wrapper .text-column ul {
     margin-left: 30px;
 }
+
+/* Delete if needed */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.additional-content {
+    flex: 1;
+}
+
+.image-column img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
