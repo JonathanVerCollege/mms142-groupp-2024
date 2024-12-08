@@ -6,16 +6,6 @@ function togglemenu(){
     navMobile.classList.toggle('active');
 }
 
-//menu prohibits scrolling//
-
-//when menu closes//
-
-
-// Change Background Videos
-//this is not needed, why is this here? I mean sure, the js was copied, but still...
-
-// Smooth scrolling for navigation
-
 // Navigation Dropdown
 document.addEventListener('DOMContentLoaded', function () {
     const dropbtn = document.querySelector('.dropbtn');
