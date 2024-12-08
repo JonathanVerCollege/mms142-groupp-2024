@@ -14,7 +14,7 @@ body {
     /* background: #000000; */
     background: #232323;
     font-family: 'Roboto', sans-serif;
-    width: 100%;
+    width: 100vh;
     min-height: 100vh;
     overflow-x: hidden; /* Prevent horizontal scroll */
     overflow-y: auto; /* Enable vertical scroll */
