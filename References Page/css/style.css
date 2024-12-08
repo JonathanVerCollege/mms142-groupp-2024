@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* For convenience and future references. We can change this anytime, if needed. */
+
 :root {
     --primary: #ff0000;
 }
@@ -15,8 +15,8 @@ body {
     font-family: 'Roboto', sans-serif;
     width: 100%;
     min-height: 100vh;
-    overflow-x: hidden; /* Prevent horizontal scroll */
-    overflow-y: auto; /* Enable vertical scroll */
+    overflow-x: hidden; 
+    overflow-y: auto; 
 }
 
 /*------CSS from Orig FIle------*/
@@ -32,7 +32,7 @@ header {
     padding: 20px 100px;
     z-index: 1000;
     background-color: rgba(27, 27, 27, 0.055);
-    max-width: 100vw; /* Ensure header does not exceed viewport width */
+    max-width: 100vw; 
 }
 
 .logo {
@@ -141,8 +141,8 @@ header {
     position: relative;
     left: 50%;
     transform: translate(-50%, 0);
-    max-width: 100vw; /* Ensure content does not exceed viewport width */
-    padding: 0 15px; /* Add padding to ensure content doesn't touch the edges */
+    max-width: 100vw; 
+    padding: 0 15px; 
 }
 
 .title {
@@ -169,8 +169,8 @@ h1 {
     left: 50%;
     transform: translate(-50%, 0);
     width: 80%;
-    max-width: 100vw; /* Ensure content does not exceed viewport width */
-    padding: 0 15px; /* Add padding to ensure content doesn't touch the edges */
+    max-width: 100vw; 
+    padding: 0 15px; 
 }
 
 h2 {
@@ -209,8 +209,8 @@ h3 {
   border-top: 18px;
   margin-top: 5px;
   color: #ffffff;
-  padding: 0 15px; /* Add padding to ensure content doesn't touch the edges */
-  max-width: 100vw; /* Ensure footer does not exceed viewport width */
+  padding: 0 15px; 
+  max-width: 100vw; 
 } 
 
 .container {
@@ -281,7 +281,7 @@ h3 {
 .header-right .nav .dropdown {
     position: relative;
     display: inline-block;
-    overflow: auto; /* Ensure dropdown can expand without being cut off */
+    overflow: auto; 
 }
 
 .header-right .nav .dropbtn {
@@ -316,7 +316,7 @@ h3 {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 900;
-    overflow: auto; /* Ensure dropdown can expand without being cut off */
+    overflow: auto; 
 }
 
 .header-right .nav .dropdown:hover .dropbtn {
