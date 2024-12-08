@@ -1,0 +1,181 @@
+/*https://bytewebster.com/*/
+/*https://bytewebster.com/*/
+/*https://bytewebster.com/*/
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Roboto:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+section {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 70%;
+  max-height: 420px;
+  max-width: 1400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2c2c2c;
+  overflow: hidden;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  width: 400px;
+  height: 400px;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+  filter: blur(1px);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: self-start;
+}
+
+.swiper-slide-active {
+  filter: blur(0px);
+}
+
+.swiper-pagination-bullet,
+.swiper-pagination-bullet-active {
+  background: #fff;
+}
+
+.swiper-slide span {
+  text-transform: uppercase;
+  color: #fff;
+  background: #1b7402;
+  padding: 7px 18px 7px 25px;
+  display: inline-block;
+  border-radius: 0 20px 20px 0px;
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.swiper-slide--one span {
+  background: #62667f;
+}
+
+.swiper-slide--four span {
+  background: #62667f;
+}
+
+.swiper-slide--seven span {
+  background: #62667f;
+}
+
+.swiper-slide--two span {
+  background: #087ac4;
+} 
+
+.swiper-slide--five span {
+  background: #087ac4;
+} 
+
+.swiper-slide--eight span {
+  background: #087ac4;
+}
+
+.swiper-slide--three span{
+  background: #b45205;
+} 
+
+.swiper-slide--six span{
+  background: #b45205;
+} 
+
+.swiper-slide--nine span {
+  background: #b45205;
+}
+
+.swiper-slide h2 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.4;
+  margin-bottom: 15px;
+  padding: 25px 45px 0 25px;
+}
+
+.swiper-slide p {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  padding: 0 25px 35px 25px;
+}
+
+/*---Healthcare---*/
+.swiper-slide--one {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("https://the-digital-librarian.com/wp-content/uploads/2017/07/img_0918.jpg")
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--two {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("https://www.monash.edu/__data/assets/image/0009/3785805/Image-2-feature.jpg")
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--three {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("https://www.eplus3d.com/uploads/image/20220705/manufacturing-and-materials-of-3d-printed-cranial-plates-1.jpg")
+      no-repeat 50% 50% / cover;
+}
+
+/*---Automotive---*/
+.swiper-slide--four {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("https://amfg.ai/wp-content/uploads/2020/03/3d-bucket-seat-1-1024x592.jpg")
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--five {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("https://amfg.ai/wp-content/uploads/2019/05/3d-printed-wheel-locks-by-ford-and-eos-1024x532.jpg")
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--six {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("https://amfg.ai/wp-content/uploads/2019/05/rolls-royce-3d-printing-metal.png")
+      no-repeat 50% 50% / cover;
+}
+
+/*---Aerospace---*/
+.swiper-slide--seven {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("https://www.aero-mag.com/image-assets/252456e4b3e83e077c66229bf2413276.jpg")
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--eight {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("https://formlabs.com/_next/image/?url=https%3A%2F%2Fformlabs-media.formlabs.com%2Ffiler_public_thumbnails%2Ffiler_public%2F4f%2Fe1%2F4fe11723-2658-4b2b-a0a0-5e59c75432be%2F09062022_texas_am_105.jpeg__1354x0_q85_subsampling-2.jpg&w=1920&q=75")
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--nine {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("https://formlabs.com/_next/image/?url=https%3A%2F%2Fformlabs-media.formlabs.com%2Ffiler_public_thumbnails%2Ffiler_public%2Fd6%2F4d%2Fd64d2df9-b53d-43f0-a276-e2db8e0d1434%2Foptimized_for_web_jpeg-09062022_elliptika_antennas_102.jpg__1354x0_q85_subsampling-2.jpg&w=1920&q=75")
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right {
+  background-image: none;
+}
