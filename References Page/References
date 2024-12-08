@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>References Page</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="css/style.css"/>
+
+        <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css'>
+        <link rel="stylesheet" href="css/carouselstyle.css">
+
+       
+    </head>
+    <body>
+     <header>
+        <!-- This is for the logo, right now it is just Group-P. But if we alter on decide to have a logo,
+        we can nlink an image file here. -->
+        <a href="../../3D printing - Copy/index.html" class="logo">Group-P</a> 
+        <div class="header-right">
+            <ul class="nav">
+                <li><a href="../../3D printing - Copy/index.html#introduction">Introduction</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">3D Printing</a>
+                    <div class="dropdown-content">
+                        <a href="../Sub-Page/Sub-Page/3DPrintingPage.html">What is 3D Printing</a>
+                        <a href="../Sub-Page/Sub-Page/3DPrintingPage.html#disruptive">Disruptive Impacts of 3D Printing</a>
+                        <a href="../Sub-Page/Sub-Page/3DPrintingPage.html#future">Future Implications of 3D Printing</a>
+                    </div>
+                </li>
+            </ul>
+            <!-- This wil be the menu button, not really sure what to use it for, probably for the About and members section. IDK -->
+            <a href="#" class="menu" onclick="togglemenu();"><i class='bx bx-menu-alt-right'></i></a>
+        </div>
+     </header>
+      <ul class="nav-mobile">
+        <li><a href="../../3D printing - Copy/index.html">Home</a></li>
+        <li><a href="#footer">Members</a></li>
+      </ul>
+
+      <div class="references">
+        <div class="three-D-Printing_1">
+          <h2>Site References</h2>
+          <p>
+
+          </p>
+          <h2>Image References</h2>
+          <h4>Healthcare</h4>
+          <p>
+            Prosthetic hand (1) https://the-digital-librarian.com/wp-content/uploads/2017/07/img_0918.jpg 
+          </p>
+          <p>
+            Anatomical replicas (2) https://www.monash.edu/__data/assets/image/0009/3785805/Image-2-feature.jpg
+          </p>
+          <p>
+            3D Printed Medical Implants (3) https://www.eplus3d.com/uploads/image/20220705/manufacturing-and-materials-of-3d-printed-cranial-plates-1.jpg 
+          </p>
+          <h4>Automotive</h4>
+          <p>
+            Porsche’s 3D printed custom seats (4) https://amfg.ai/wp-content/uploads/2020/03/3d-bucket-seat-1-1024x592.jpg 
+          </p>
+          <p>
+            3D-printed lug nuts (5) https://amfg.ai/wp-content/uploads/2019/05/3d-printed-wheel-locks-by-ford-and-eos-1024x532.jpg 
+          </p>
+          <p>
+            Automotive brackets (6) https://amfg.ai/wp-content/uploads/2019/05/rolls-royce-3d-printing-metal.png 
+          </p>
+          <h4>Aerospace</h4>
+          <p>
+            3D Printed Eco Bracket (7) https://www.aero-mag.com/image-assets/252456e4b3e83e077c66229bf2413276.jpg 
+          </p>
+          <p>
+            3D Printed Wind Tunnel Test Parts (8) https://formlabs.com/_next/image/?url=https%3A%2F%2Fformlabs-media.formlabs.com%2Ffiler_public_thumbnails%2Ffiler_public%2F4f%2Fe1%2F4fe11723-2658-4b2b-a0a0-5e59c75432be%2F09062022_texas_am_105.jpeg__1354x0_q85_subsampling-2.jpg&w=1920&q=75 
+          </p>
+          <p>
+            End-Use Aerospace Parts  (9) https://formlabs.com/_next/image/?url=https%3A%2F%2Fformlabs-media.formlabs.com%2Ffiler_public_thumbnails%2Ffiler_public%2Fd6%2F4d%2Fd64d2df9-b53d-43f0-a276-e2db8e0d1434%2Foptimized_for_web_jpeg-09062022_elliptika_antennas_102.jpg__1354x0_q85_subsampling-2.jpg&w=1920&q=75 
+          </p>
+          <h3>Resources</h3>
+          <p>
+            https://the-digital-librarian.com/2017/07/18/3d-printing-childrens-prosthetic-hands-at-your-library/ 
+          </p>
+          <p>
+            https://www.monash.edu/discovery-institute/news-and-events/news/2024-articles/monash-scientists-develop-state-of-the-art-photorealistic-replicas-for-anatomy-teaching 
+          </p>
+          <p>
+            https://www.eplus3d.com/manufacturing-and-materials-of-3d-printed-cranial-.html 
+          </p>
+          <p>
+            https://amfg.ai/2019/05/28/7-exciting-examples-of-3d-printing-in-the-automotive-industry/ 
+          </p>
+          <p>
+            https://www.voxelmatters.com/rolls-royce-shows-off-heaps-of-serially-3d-printed-automotive-metal-parts/ 
+          </p>
+          <p>
+            https://formlabs.com/asia/blog/additive-manufacturing-3d-printing-in-aerospace/?srsltid=AfmBOoohqowUWfebBIaUw8iKKR6ekYqWqylRwsdexpXDoi6ropHgwynY
+          </p>
+      </div>
