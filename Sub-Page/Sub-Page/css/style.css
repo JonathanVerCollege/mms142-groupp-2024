@@ -35,12 +35,7 @@ header {
 }
 
 .logo {
-    font-size: 30px;
-    color: #ffffff;
-    letter-spacing: 2px;
-    font-weight: 800;
-    text-decoration: none;
-    text-transform: uppercase;
+    width: 90px;
 }
 
 .header-right {
@@ -160,6 +155,13 @@ h1 {
     color: white; 
 }
 
+.title-1 {
+    margin-top: 140px;
+    background-color: #1b1b1b;
+    height: 160px;
+    align-items: center;
+}
+
 .part-2-3 {
     color: white;
     position: relative;
@@ -186,6 +188,10 @@ p {
 
 /*---3D Printing content area layout---*/
 
+.three-D-Printing_1 {
+    margin-top: 60px;
+}
+
 .three-D-Printing_1, .three-D-Printing_2 {
     margin-bottom: 80px;
 }
@@ -209,6 +215,7 @@ p {
 h3 {
     font-size: 22px;
     text-align: center;
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 
@@ -266,82 +273,84 @@ h3 {
 /*--Footer---*/
 
 .footer {
-  background: #1b1b1b;
-  padding-bottom: 30px;
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  border-top: 18px;
-  margin-top: 5px;
-  color: #ffffff;
-} 
-
-.container {
-    max-height: 360px;
-    padding-top: 20px;
-    padding-top: 20px;
-    width: 90%;
-    margin: auto;
-}
-
-.column {
-    display: grid;
-    grid-template-columns: 1fr 1.5fr;
-}
-
-.info {
-    display: grid;
-    
-    width: 80%;  
-}
-
-.logo {
-    align-content: center;
-}
-
-.members {
-    align-content: center;
-}
-
-.names {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-.member-list {
-    line-height: 2;
-    width: 90%;
-    min-width: 220px;
-    text-align: left;
-    align-content: end;
-    padding-left: 10px;
-} 
-
-.names {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-  .footer h4 {
-    font-size: 1em;
-    font-weight: 600;
-    align-content: center;
-    padding-bottom: 10px;
-  }
-  .footer h3 {
-    font-size: 1.2em;
-    font-weight: 600;
-    line-height: 2px;
-    padding: 40px 10px 0px;
-    text-transform: uppercase;
-    margin: 20px;
-    text-align: left;
+    background: #1b1b1b;
+    padding-bottom: 30px;
+    position: relative;
+    width: 100%;
+    border-top: 18px;
+    margin-top: 5px;
+    color: #ffffff;
+    padding: 0 15px; 
+  } 
+  
+  .container {
+      max-height: 360px;
+      padding-top: 20px;
+      width: 90%;
+      margin: auto;
   }
   
+  .column {
+      display: grid;
+      grid-template-columns: 1fr 1.5fr;
+  }
+  
+  .info {
+      display: grid;
+      width: 80%;
+      height: 80%;  
+  }
+  
+  .footer-logo {
+      padding-top: 12px;
+      padding-bottom: 10px;
+      width: 7em;
+  }
+  
+  .members {
+      align-content: center;
+      height: 80%;
+  }
+  
+  .names {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .member-list {
+      line-height: 2;
+      width: 90%;
+      min-width: 220px;
+      text-align: left;
+      align-content: end;
+      padding-left: 10px;
+  } 
+  
+  .names {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .footer h4 {
+      font-size: 1em;
+      font-weight: 600;
+      align-content: center;
+      padding-bottom: 10px;
+  }
+  .footer h3 {
+      font-size: 1.2em;
+      font-weight: 600;
+      line-height: 2px;
+      padding: 20px 10px 0px;
+      text-transform: uppercase;
+      margin: 20px;
+      text-align: left;
+  }
+    
   .footer p {
-    font-size: 1em;
-    font-weight: lighter;
-}
+      font-size: 1em;
+      font-weight: lighter;
+  }
 
 .header-right .nav .dropdown {
     position: relative;
