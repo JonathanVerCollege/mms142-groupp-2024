@@ -51,24 +51,7 @@ document.querySelectorAll('.nav-mobile li a').forEach(item => {
 });
 
 // Change Background Videos
-function changeVideo(name){
-    const bgVideoList = document.querySelectorAll('.bg-video');
-    const videoContainer = document.querySelectorAll('.video-container');
-
-    bgVideoList.forEach(video => {
-        video.classList.remove('active');
-        if(video.classList.contains(name)){
-            video.classList.add('active');
-        }
-    });
-
-    videoContainer.forEach(video => {
-        video.classList.remove('active');
-        if(video.classList.contains(name)){
-            video.classList.add('active');
-        }
-    });
-}
+//this is not needed, why is this here? I mean sure, the js was copied, but still...
 
 // Smooth scrolling for navigation
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -98,23 +81,4 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 //share button//
-document.addEventListener('DOMContentLoaded', function() {
-  const shareButton = document.getElementById('shareButton');
-
-  if (navigator.share) {
-    shareButton.addEventListener('click', function() {
-      navigator.share({
-        title: 'Check this out!',
-        text: 'I found something interesting for you.',
-        url: window.location.href
-      }).then(() => {
-        console.log('Thanks for sharing!');
-      }).catch(console.error);
-    });
-  } else {
-    // Fallback for browsers that do not support the Web Share API :(
-    shareButton.addEventListener('click', function() {
-      alert('Web Share API is not supported in your browser. Please share this page manually. :)');
-    });
-  }
-});
+//also this...
